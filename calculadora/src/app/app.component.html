@@ -1,0 +1,13 @@
+<form [formGroup]="calculadora">
+  <main class="div-main">
+    <input formControlName="elemento1" />
+    <div class="div-buttons">
+      <button (click)="sumar()">+</button>
+      <button (click)="restar()">-</button>
+      <button (click)="dividir()">/</button>
+      <button (click)="multiplicar()">*</button>
+    </div>
+    <input formControlName="elemento2" />
+    <p class="resultado">= {{ res }}</p>
+  </main>
+</form>

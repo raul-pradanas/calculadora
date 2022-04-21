@@ -1,0 +1,7 @@
+Tareas a priorizar:
+1.- Operaciones
+2.- Validar inputs
+3.- Comprobar operacion seleccionada
+4.- Mostrar 3 decimales como maximo
+5.- Division por cero
+6.- Comprobar numeros grandes y pequeños
